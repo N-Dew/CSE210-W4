@@ -1,5 +1,4 @@
 
-# still working all this out
 
 import turtle
 import random
