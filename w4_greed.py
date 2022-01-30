@@ -11,10 +11,10 @@ b = random.randint(0,255)
 rgb = [r,g,b]
 
 # Set up the screen
-window = turtle.Screen()
-window.width = 800 
-window.nheight = 600
-window.bgcolor: ("black")
+# window = turtle.Screen()
+# window.width = 800 
+# window.nheight = 600
+# window.bgcolor = rgb
 
 # other variable
 score = 0
@@ -49,7 +49,7 @@ for _ in range(20):
     bad_thing = turtle.Turtle()
     bad_thing.speed(0)
     bad_thing.shape("O")
-    bad_thing.random.color(rgb)
+    bad_thing.color(rgb)
     bad_thing.penup()
     bad_thing.goto(100, 250)
     bad_thing.speed = random.randint(2, 5)
